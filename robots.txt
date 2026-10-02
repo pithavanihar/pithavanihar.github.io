@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pithavanihar.github.io/sitemap.xml

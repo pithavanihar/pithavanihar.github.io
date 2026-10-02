@@ -3,8 +3,61 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Nihar Pithava · Backend Engineer</title>
-<meta name="description" content="Nihar Pithava — Senior Backend Engineer in Ahmedabad. Builds CRM platforms, multi-gateway payment systems and WhatsApp automation on Node.js, AdonisJS, Laravel and AWS.">
+<title>Nihar Pithava | Freelance Backend Developer, Node.js &amp; Laravel, Ahmedabad</title>
+<meta name="description" content="Nihar Pithava is a senior backend developer in Ahmedabad, India, available for freelance work. 6+ years building payment gateway integrations (Razorpay, PhonePe), CRM platforms, WhatsApp Business API bots and AWS backends with Node.js, AdonisJS and Laravel.">
+<meta name="author" content="Nihar Pithava">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://pithavanihar.github.io/">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#1B2433">
+
+<meta property="og:type" content="profile">
+<meta property="og:url" content="https://pithavanihar.github.io/">
+<meta property="og:title" content="Nihar Pithava | Freelance Backend Developer">
+<meta property="og:description" content="Payment gateway integrations, CRM platforms, WhatsApp automation and AWS backends. Node.js, AdonisJS, Laravel. Based in Ahmedabad, working worldwide.">
+<meta property="og:image" content="https://pithavanihar.github.io/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="profile:first_name" content="Nihar">
+<meta property="profile:last_name" content="Pithava">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Nihar Pithava | Freelance Backend Developer">
+<meta name="twitter:description" content="Payment gateway integrations, CRM platforms, WhatsApp automation and AWS backends.">
+<meta name="twitter:image" content="https://pithavanihar.github.io/og.png">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://pithavanihar.github.io/#person",
+      "name": "Nihar Pithava",
+      "url": "https://pithavanihar.github.io/",
+      "image": "https://pithavanihar.github.io/og.png",
+      "email": "mailto:niharpithava@gmail.com",
+      "jobTitle": "Senior Backend Engineer",
+      "worksFor": {"@type": "Organization", "name": "Petpooja"},
+      "address": {"@type": "PostalAddress", "addressLocality": "Ahmedabad", "addressRegion": "Gujarat", "addressCountry": "IN"},
+      "alumniOf": {"@type": "CollegeOrUniversity", "name": "Silver Oak College of Engineering & Technology"},
+      "knowsAbout": ["Backend development", "Node.js", "AdonisJS", "Laravel", "PHP", "MongoDB", "MySQL", "ClickHouse", "AWS Lambda", "Amazon SQS", "Amazon EventBridge", "Payment gateway integration", "Razorpay", "PhonePe", "WhatsApp Business API", "CRM development", "REST API design", "System design"],
+      "sameAs": ["https://www.linkedin.com/in/nihar-pithava-dev", "https://github.com/pithavanihar"]
+    },
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://pithavanihar.github.io/#service",
+      "name": "Nihar Pithava, Freelance Backend Development",
+      "url": "https://pithavanihar.github.io/",
+      "image": "https://pithavanihar.github.io/og.png",
+      "email": "niharpithava@gmail.com",
+      "founder": {"@id": "https://pithavanihar.github.io/#person"},
+      "address": {"@type": "PostalAddress", "addressLocality": "Ahmedabad", "addressRegion": "Gujarat", "addressCountry": "IN"},
+      "areaServed": "Worldwide",
+      "serviceType": ["Payment gateway integration", "CRM development", "WhatsApp Business API automation", "Backend API development", "Laravel development", "Node.js development"]
+    }
+  ]
+}
+</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
@@ -91,6 +144,12 @@ section{padding-top:84px}
 h2{font-family:var(--display);font-weight:800;font-variation-settings:"wdth" 112;font-size:clamp(1.8rem,4vw,2.6rem);letter-spacing:-.02em;line-height:1.05}
 .sec-head p{color:var(--muted);margin-top:10px;max-width:56ch}
 
+/* services */
+.svc{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:30px 40px}
+.svc h3{font-family:var(--display);font-weight:700;font-variation-settings:"wdth" 100;font-size:1.15rem;line-height:1.25;padding-bottom:10px;border-bottom:1.5px solid var(--ink);margin-bottom:10px}
+.svc p{color:var(--muted)}
+.svc-cta{margin-top:34px}
+
 /* systems */
 .sys{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:12px 48px;padding:30px 0;border-top:1px solid var(--rule)}
 .sys:last-child{border-bottom:1px solid var(--rule)}
@@ -148,6 +207,7 @@ h2{font-family:var(--display);font-weight:800;font-variation-settings:"wdth" 112
 <header class="wrap bar">
   <a class="mark" href="#top">NP</a>
   <nav aria-label="Sections">
+    <a href="#services">Services</a>
     <a href="#systems">Systems</a>
     <a href="#experience">Experience</a>
     <a href="#skills">Skills</a>
@@ -158,7 +218,7 @@ h2{font-family:var(--display);font-weight:800;font-variation-settings:"wdth" 112
 <main id="top">
   <div class="wrap hero">
     <h1>Nihar<br>Pithava</h1>
-    <p class="role"><strong>Senior backend engineer</strong> in Ahmedabad. Six years building the systems behind sales, payments and customer messaging — mostly from a blank repo.</p>
+    <p class="role"><strong>Senior backend developer</strong> in Ahmedabad, India, available for freelance projects. Six years building the systems behind sales, payments and customer messaging — mostly from a blank repo.</p>
     <div class="cta">
       <a class="btn primary" href="mailto:niharpithava@gmail.com">Email me</a>
       <a class="btn" href="https://linkedin.com/in/nihar-pithava-dev" target="_blank" rel="noopener">LinkedIn</a>
@@ -175,6 +235,32 @@ h2{font-family:var(--display);font-weight:800;font-variation-settings:"wdth" 112
       </ol>
     </div>
   </div>
+
+  <section id="services" class="wrap">
+    <div class="sec-head">
+      <h2>Freelance services</h2>
+      <p>I take on freelance and contract backend work for startups and businesses in India and abroad. These are the problems I've already solved in production.</p>
+    </div>
+    <div class="svc">
+      <div>
+        <h3>Payment gateway integration</h3>
+        <p>Razorpay and PhonePe integration, one-time and recurring auto-pay (subscriptions), webhooks, and multi-gateway failover so a gateway outage doesn't stop your revenue.</p>
+      </div>
+      <div>
+        <h3>CRM and sales automation</h3>
+        <p>Custom CRM development: lead capture forms, automatic lead assignment, pipelines, webhooks, and Google and Meta Conversion API tracking for your ads.</p>
+      </div>
+      <div>
+        <h3>WhatsApp Business API bots</h3>
+        <p>WhatsApp chatbot development for onboarding, reminders and collecting payments, plus bot builders your team can run without a developer.</p>
+      </div>
+      <div>
+        <h3>Backend APIs on Node.js and Laravel</h3>
+        <p>REST API development, database design on MongoDB and MySQL, and event-driven backends on AWS Lambda, SQS and EventBridge that scale with you.</p>
+      </div>
+    </div>
+    <p class="svc-cta"><a class="btn primary" href="mailto:niharpithava@gmail.com?subject=Freelance%20project%20enquiry">Discuss your project</a></p>
+  </section>
 
   <section id="systems" class="wrap">
     <div class="sec-head">
@@ -269,7 +355,7 @@ h2{font-family:var(--display);font-weight:800;font-variation-settings:"wdth" 112
 <footer id="contact" class="contact">
   <div class="wrap">
     <h2>Building something that has to work?</h2>
-    <p>I'm open to senior backend roles: payments, platform and integration-heavy products.</p>
+    <p>Hire me for a freelance project or a senior backend role: payments, CRMs, automation and integration-heavy products.</p>
     <div class="links">
       <a href="mailto:niharpithava@gmail.com">niharpithava@gmail.com</a>
       <a href="https://linkedin.com/in/nihar-pithava-dev" target="_blank" rel="noopener">linkedin.com/in/nihar-pithava-dev</a>
